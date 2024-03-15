@@ -1,21 +1,456 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-01T21:15:13 IST" name="Default suite" finished-at="2023-07-01T21:15:19 IST" duration-ms="6145">
+  <suite started-at="2024-03-15T19:58:36 IST" name="Default suite" finished-at="2024-03-15T19:58:37 IST" duration-ms="1621">
     <groups>
     </groups>
-    <test started-at="2023-07-01T21:15:13 IST" name="Default test" finished-at="2023-07-01T21:15:19 IST" duration-ms="6145">
-      <class name="seleniumcodesnippet.test.LaunchBrowserTest">
-        <test-method signature="launchDiffDriver()[pri:0, instance:seleniumcodesnippet.test.LaunchBrowserTest@79924b]" started-at="2023-07-01T21:15:13 IST" name="launchDiffDriver" finished-at="2023-07-01T21:15:19 IST" duration-ms="5798" status="PASS">
+    <test started-at="2024-03-15T19:58:36 IST" name="Default test" finished-at="2024-03-15T19:58:37 IST" duration-ms="1621">
+      <class name="seleniumcodesnippet.ExcelReader">
+        <test-method signature="readData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumcodesnippet.ExcelReader@38425407]" started-at="2024-03-15T19:58:37 IST" name="readData" data-provider="testcase" finished-at="2024-03-15T19:58:37 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Scenario #]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Requirement ID]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test Scenario Description]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test Cases]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchDiffDriver -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumcodesnippet.test.LaunchBrowserTest@79924b]" started-at="2023-07-01T21:15:19 IST" name="tearDown" finished-at="2023-07-01T21:15:19 IST" duration-ms="291" status="PASS">
+        </test-method> <!-- readData -->
+        <test-method signature="readData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumcodesnippet.ExcelReader@38425407]" started-at="2024-03-15T19:58:37 IST" name="readData" data-provider="testcase" finished-at="2024-03-15T19:58:37 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S1.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Check the Login Functionality]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.Check system behavior when valid email id and password is entered. 
+2.Check system behavior when invalid email id and valid password is entered. 
+3.Check system behavior when valid email id and invalid password is entered. 
+4.Check system behavior when invalid email id and invalid password is entered. 
+5.Check system behavior when email id and password are left blank and Sign in entered. 
+6.Check Forgot your password is working as expected
+7.Check system behavior when valid/invalid phone number and password is entered. 
+8.Check system behavior when "Keep me signed" is checked]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- seleniumcodesnippet.test.LaunchBrowserTest -->
+        </test-method> <!-- readData -->
+        <test-method signature="readData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumcodesnippet.ExcelReader@38425407]" started-at="2024-03-15T19:58:37 IST" name="readData" data-provider="testcase" finished-at="2024-03-15T19:58:37 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S1.2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Check the Search Functionality ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method signature="readData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumcodesnippet.ExcelReader@38425407]" started-at="2024-03-15T19:58:37 IST" name="readData" data-provider="testcase" finished-at="2024-03-15T19:58:37 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S1.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Check the Product Description Page]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method signature="readData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumcodesnippet.ExcelReader@38425407]" started-at="2024-03-15T19:58:37 IST" name="readData" data-provider="testcase" finished-at="2024-03-15T19:58:37 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S1.4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Check the Payments Functionality]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method signature="readData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumcodesnippet.ExcelReader@38425407]" started-at="2024-03-15T19:58:37 IST" name="readData" data-provider="testcase" finished-at="2024-03-15T19:58:37 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S1.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Check the Order History]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method signature="readData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumcodesnippet.ExcelReader@38425407]" started-at="2024-03-15T19:58:37 IST" name="readData" data-provider="testcase" finished-at="2024-03-15T19:58:37 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S1.6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Check Home Page behavior for returning customers]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method signature="readData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumcodesnippet.ExcelReader@38425407]" started-at="2024-03-15T19:58:37 IST" name="readData" data-provider="testcase" finished-at="2024-03-15T19:58:37 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S1.7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Check Category/Product Pages]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method signature="readData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumcodesnippet.ExcelReader@38425407]" started-at="2024-03-15T19:58:37 IST" name="readData" data-provider="testcase" finished-at="2024-03-15T19:58:37 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S1.8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Check Customer Service/Contact Pages]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method signature="readData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumcodesnippet.ExcelReader@38425407]" started-at="2024-03-15T19:58:37 IST" name="readData" data-provider="testcase" finished-at="2024-03-15T19:58:37 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S1.9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Check Daily Deals pages]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method signature="readData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumcodesnippet.ExcelReader@38425407]" started-at="2024-03-15T19:58:37 IST" name="readData" data-provider="testcase" finished-at="2024-03-15T19:58:37 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method signature="readData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumcodesnippet.ExcelReader@38425407]" started-at="2024-03-15T19:58:37 IST" name="readData" data-provider="testcase" finished-at="2024-03-15T19:58:37 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method signature="readData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumcodesnippet.ExcelReader@38425407]" started-at="2024-03-15T19:58:37 IST" name="readData" data-provider="testcase" finished-at="2024-03-15T19:58:37 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method signature="readData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumcodesnippet.ExcelReader@38425407]" started-at="2024-03-15T19:58:37 IST" name="readData" data-provider="testcase" finished-at="2024-03-15T19:58:37 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method signature="readData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumcodesnippet.ExcelReader@38425407]" started-at="2024-03-15T19:58:37 IST" name="readData" data-provider="testcase" finished-at="2024-03-15T19:58:37 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[14.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method signature="readData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumcodesnippet.ExcelReader@38425407]" started-at="2024-03-15T19:58:37 IST" name="readData" data-provider="testcase" finished-at="2024-03-15T19:58:37 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method signature="readData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumcodesnippet.ExcelReader@38425407]" started-at="2024-03-15T19:58:37 IST" name="readData" data-provider="testcase" finished-at="2024-03-15T19:58:37 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method signature="readData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumcodesnippet.ExcelReader@38425407]" started-at="2024-03-15T19:58:37 IST" name="readData" data-provider="testcase" finished-at="2024-03-15T19:58:37 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method signature="readData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumcodesnippet.ExcelReader@38425407]" started-at="2024-03-15T19:58:37 IST" name="readData" data-provider="testcase" finished-at="2024-03-15T19:58:37 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method signature="readData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumcodesnippet.ExcelReader@38425407]" started-at="2024-03-15T19:58:37 IST" name="readData" data-provider="testcase" finished-at="2024-03-15T19:58:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+      </class> <!-- seleniumcodesnippet.ExcelReader -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

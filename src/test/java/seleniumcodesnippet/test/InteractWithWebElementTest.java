@@ -7,10 +7,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+@Test
 public class InteractWithWebElementTest {
 	WebDriver driver;
 	
@@ -22,6 +24,7 @@ public class InteractWithWebElementTest {
 //		PageFactory.initElements(driver , this);
 //	}
 	
+	@Test
 	public void logInFb()
 	{
 		WebDriverManager.chromedriver().setup();
@@ -31,6 +34,7 @@ public class InteractWithWebElementTest {
 		driver.get("http://facebook.com");
 	}
 	
+	@Test
 	public void logInCredentials()
 	{
 		WebElement email = driver.findElement(By.xpath("//div/input[@id='email']"));
@@ -44,11 +48,17 @@ public class InteractWithWebElementTest {
 		
 		System.out.println("Browser Closed");
 		
-		driver.quit();
+		//driver.quit();
 		
 //		WebElement confirmbutton = driver.findElement(By.xpath("(//div/button)[2]"));
 //		confirmbutton.click();
 			
+	}
+	
+	@AfterTest
+	public void tearDown()
+	{
+		driver.quit();
 	}
 	
 }

@@ -13,11 +13,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+@Test
 public class WindowHandleTest {
 	WebDriver driver;
+	
+	@Test
 	public void openNewWindow() throws InterruptedException
 	{
 		WebDriverManager.chromedriver().setup();
@@ -27,17 +32,17 @@ public class WindowHandleTest {
 		driver.get("https://www.google.com/");
 		String Mainwindow = driver.getWindowHandle();
 		
-		driver.switchTo().newWindow(WindowType.TAB);
-		driver.get("http://localhost:8080/");
-		String window1 = driver.getWindowHandle();
+//		driver.switchTo().newWindow(WindowType.TAB);
+//		driver.get("http://localhost:8080/");
+//		String window1 = driver.getWindowHandle();
 		
 		driver.switchTo().newWindow(WindowType.TAB);
 		driver.get("https://github.com/");
 		String window2 = driver.getWindowHandle();
 		
-		driver.switchTo().window(window1);
-		Thread.sleep(5000);
-		
+//		driver.switchTo().window(window1);
+//		Thread.sleep(5000);
+//		
 		Set<String> windows = driver.getWindowHandles();
 		Iterator<String> it = windows.iterator();
 		System.out.println(windows);
@@ -65,6 +70,11 @@ public class WindowHandleTest {
 
         // Close the main browser window
        // driver.quit();
+	}
+	@AfterTest
+	public void tearDown()
+	{
+		driver.quit();
 	}
 	
 }
